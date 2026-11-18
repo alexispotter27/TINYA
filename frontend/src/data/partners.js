@@ -1,0 +1,88 @@
+const partners = [
+  {
+    id: 1,
+    name: "Federal Ministry of Agriculture",
+    logo: "/images/partners/fmafs.png",
+    website: "https://agriculture.gov.ng/",
+    category: "Government",
+  },
+  {
+    id: 2,
+    name: "Bank of Industry",
+    logo: "/images/partners/boi.png",
+    website: "https://www.boi.ng",
+    category: "Development Finance",
+  },
+  {
+    id: 3,
+    name: "Bank of Agriculture",
+    logo: "/images/partners/boa.png",
+    website: "https://boanig.com",
+    category: "Agricultural Finance",
+  },
+  {
+    id: 4,
+    name: "FAO",
+    logo: "/images/partners/foa.jpg",
+    website: "https://www.fao.org/home/en",
+    category: "International Organization",
+  },
+  {
+    id: 5,
+    name: "IFAD",
+    logo: "/images/partners/IFAD.png",
+    website: "https://www.afdb.org/",
+    category: "Development Partner",
+  },
+  {
+    id: 6,
+    name: "World Bank",
+    logo: "/images/partners/World Bank.png",
+    website: "https://www.worldbank.org",
+    category: "Funding Partner",
+  },
+  {
+    id: 7,
+    name: "African Development Bank",
+    logo: "/images/partners/ADB.png",
+    website: "https://www.afdb.org/",
+    category: "Funding Partner",
+  },
+  {
+    id: 8,
+    name: "Alexis Integrated Applied Science",
+    logo: "/images/partners/aias.png",
+    website: "#",
+    category: "Technology Partner",
+  },
+  {
+    id: 8,
+    name: "Central Bank of Nigeria",
+    logo: "/images/partners/cbn.png",
+    website: "https://www.cbn.gov.ng/",
+    category: "Funding Partner",
+  },
+  {
+    id: 8,
+    name: "International Institute of Tropical Agriculture",
+    logo: "/images/partners/iita.png",
+    website: "https://iita.org/",
+    category: "Development Partner",
+  },
+  {
+    id: 8,
+    name: "National Agricultural Extension and Research Liaison Services",
+    logo: "/images/partners/naerls.png",
+    website: "https://naerls.gov.ng",
+    category: "Development Partner",
+  },
+  {
+    id: 8,
+    name: "Nigeria Incentive-Based Risk Sharing System for Agricultural Lending",
+    logo: "/images/partners/nirsal.png",
+    website: "https://nirsal.com/",
+    category: "Funding Partner",
+  },
+];
+
+export default partners;

@@ -1,0 +1,5 @@
+node_modules/
+.env
+storage/private-uploads/*
+!storage/private-uploads/.gitkeep
+npm-debug.log*

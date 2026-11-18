@@ -1,0 +1,53 @@
+@import "tailwindcss";
+/* ===========================
+   PARTNERS MARQUEE ANIMATION
+=========================== */
+
+.partners-slider {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: max-content;
+  animation: partnersScroll 35s linear infinite;
+}
+
+.partners-slider:hover {
+  animation-play-state: paused;
+}
+
+@keyframes partnersScroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Mobile Speed Adjustment */
+
+@media (max-width: 768px) {
+  .partners-slider {
+    animation-duration: 25s;
+  }
+}
+
+@keyframes scrollPartners {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  width: max-content;
+  animation: scrollPartners 30s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
